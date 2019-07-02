@@ -1,0 +1,15 @@
+1. datasets folder at the same level as the .py files
+2. create folders for each dataset inside the datasets folder (with these exact names)
+    datasets
+    |
+    |---cifar-10
+    |---faces
+    |---texture
+3. download links:
+    cifar-10 (https://www.cs.toronto.edu/~kriz/cifar.html)
+    faces (http://vis-www.cs.umass.edu/lfw/#download)
+    texture (https://www.robots.ox.ac.uk/~vgg/data/dtd/)
+4. cifar-10: we use data_batch_1, test_batch and batches.meta
+5. faces: only extract Serena_Williams and Ariel Sharon folders
+6. texture: all extraction directly in the texture folder
+    only extract folders cracked, frilly and zigzaged from the images folder.
